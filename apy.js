@@ -1,6 +1,6 @@
 import Compound from '@compound-finance/compound-js';
 
-const provider = 'INFURA URL HERE (MAINNET)';
+const provider = 'https://mainnet.infura.io/v3/e8746dd884324d37984f917e061064ee';
 
 const comptroller = Compound.util.getAddress(Compound.Comptroller);
 const opf = Compound.util.getAddress(Compound.PriceFeed);
