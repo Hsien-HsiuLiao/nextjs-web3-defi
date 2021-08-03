@@ -39,9 +39,13 @@ export default function Home({ apys }) {
         {apys && apys.map(apy => (
           <tr key={apy.ticker}>
             <td>
-              <img 
-                src={`img/${apy.ticker.toLowerCase()}.png`} 
-                style={{width: 25, height: 25, marginRight: 10}} 
+            {/*  <img */}
+            {/*    style=width: 25, height: 25, marginRight: 10 */}
+              <Image
+                src={`/img/${apy.ticker.toLowerCase()}.png`} 
+                width={25}
+                height={25}
+                marginRight={10}
               />
               {apy.ticker.toUpperCase()}
             </td>
