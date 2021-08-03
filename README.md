@@ -3,6 +3,8 @@ This app is a dashboard showing Compound APYs with COMP token rewards for the DA
 
 https://compound.finance/markets
 
+Deployed to https://defi-compound-dashboard.vercel.app/
+
 
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
