@@ -1,3 +1,10 @@
+## Summary
+This app is a dashboard showing Compound APYs with COMP token rewards for the DAI, USDC and USDT tokens.
+
+https://compound.finance/markets
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
