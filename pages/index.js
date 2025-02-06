@@ -73,8 +73,8 @@ export async function getServerSideProps(context) {
     calculateApy(Compound.cUSDT, 'USDT'),
     calculateApy(Compound.cBAT, 'BAT'),
     calculateApy(Compound.cUNI, 'UNI')
-
-    // add other tokens like BAT, etc
+  
+    // add other tokens 
   ]);
 
   return {
