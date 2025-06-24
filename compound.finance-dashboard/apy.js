@@ -1,6 +1,9 @@
 import Compound from '@compound-finance/compound-js';
 
-const provider = 'https://mainnet.infura.io/v3/e8746dd884324d37984f917e061064ee';
+require('dotenv').config(); // Load environment variables from .env file
+
+const infuraAPIKey = process.env.INFURA_API_KEY; // Access the API key
+const provider = `https://mainnet.infura.io/v3/${infuraAPIKey}`;
 
 const comptroller = Compound.util.getAddress(Compound.Comptroller);
 const opf = Compound.util.getAddress(Compound.PriceFeed);
