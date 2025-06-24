@@ -1,9 +1,8 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-//import Compound from '@compound-finance/compound-js';
 import Compound from '@compound-finance/compound-js';
-import calculateApy from '../apy.ts';
+import calculateApy from '../apy.js';
 
 
 export default function Home({ apys }) {
