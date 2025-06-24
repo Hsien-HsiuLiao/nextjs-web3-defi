@@ -1,6 +1,10 @@
 import Compound from '@compound-finance/compound-js';
 
-require('dotenv').config(); // Load environment variables from .env file
+//require('dotenv').config(); // Load environment variables from .env file
+import { config } from 'dotenv';
+
+// Load environment variables from .env file
+config();
 
 const infuraAPIKey = process.env.INFURA_API_KEY; // Access the API key
 const provider = `https://mainnet.infura.io/v3/${infuraAPIKey}`;
