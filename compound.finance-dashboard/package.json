@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@compound-finance/compound-js": "^0.2.13",
+    "@compound-finance/compound-js": "^0.6.2",
     "bootstrap": "^5.0.2",
     "dotenv": "^16.5.0",
     "next": "^15.1.6",
