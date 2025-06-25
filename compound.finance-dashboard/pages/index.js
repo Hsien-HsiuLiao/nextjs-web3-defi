@@ -82,7 +82,7 @@ export default function Home({ apys }) {
 export async function getServerSideProps(context) {
   const apys = await Promise.all([
     calculateApy(Compound.cDAI, 'DAI'),
-    calculateApy(Compound.cUSDC, 'USDC'),
+    calculateApy(Compound.cUSDC, 'USDC'),//Compound.decimals.cUSDC.toString() for tsx
     calculateApy(Compound.cUSDT, 'USDT'),
     //  calculateApy(Compound.cBAT, 'BAT'),
     //calculateApy(Compound.cUNI, 'UNI')
