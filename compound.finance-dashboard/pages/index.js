@@ -67,6 +67,8 @@ export default function Home({ apys }) {
   )
 }
 
+//https://nextjs.org/docs/pages/building-your-application/data-fetching/get-server-side-props#error-handling
+//get data from blockchain to calculate APYs
 export async function getServerSideProps(context) {
   const apys = await Promise.all([
     calculateApy(Compound.cDAI, 'DAI'),
