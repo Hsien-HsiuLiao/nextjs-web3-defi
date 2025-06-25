@@ -14,11 +14,9 @@ export default function Home({ apys }) {
     `${new Number(number).toFixed(2)}%`
 
   useEffect(() => {
-    // Simulate data fetching
     if (apys.length === 0) {
       setLoading(true);
-      // Fetch data here if needed
-      setLoading(false);
+     
     } else {
       setLoading(false);
     }
